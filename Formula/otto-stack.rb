@@ -58,11 +58,7 @@ class OttoStack < Formula
 
   test do
     assert_match(/\d+\.\d+\.\d+/, shell_output("#{bin}/otto-stack --version"))
-
-    # Test basic functionality
     system bin/"otto-stack", "--help"
-
-    # Test that the binary is properly linked
     assert_path_exists bin/"otto-stack"
     assert_predicate bin/"otto-stack", :executable?
   end
