@@ -5,7 +5,7 @@ class ClaudeReview < Formula
   license "MIT"
 
   url "https://github.com/otto-nation/otto-workbench/releases/download/claude-review-v1.3.2/claude-review-1.3.2.tar.gz"
-  sha256 "ba57d8ce2d069bf348068d09bedd2173eb282f774008ecb1fc4dde48708710f7"
+  sha256 "7771773b11d882f26c98b9521d22b2ab47938cc55cadcb82bf4014ba6bcd8017"
 
   depends_on "bash"
   depends_on "gh"
