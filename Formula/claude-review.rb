@@ -1,11 +1,11 @@
 class ClaudeReview < Formula
   desc "AI-powered code review tool for GitHub pull requests"
   homepage "https://github.com/otto-nation/otto-workbench"
-  version "1.6.4"
+  version "1.6.5"
   license "MIT"
 
-  url "https://github.com/otto-nation/otto-workbench/releases/download/claude-review-v1.6.4/claude-review-1.6.4.tar.gz"
-  sha256 "1ceeaa6a416adb229a31c0ae48359f36fb362246c403f0f09ab4cb77845b5665"
+  url "https://github.com/otto-nation/otto-workbench/releases/download/claude-review-v1.6.5/claude-review-1.6.5.tar.gz"
+  sha256 "8899fa0847741cec5d1ef6ee4bb3ebed4eb955d34a8f190e6d75c6d9f202f339"
 
   depends_on "bash"
   depends_on "gh"
