@@ -1,11 +1,11 @@
 class OttoWorkbench < Formula
   desc "Developer environment manager — shell, git, brew, Claude AI tooling"
   homepage "https://github.com/otto-nation/otto-workbench"
-  version "1.12.2"
+  version "1.13.0"
   license "MIT"
 
-  url "https://github.com/otto-nation/otto-workbench/releases/download/v1.12.2/otto-workbench-1.12.2.tar.gz"
-  sha256 "bc8212c5bdb1a569effec509f3be1c72052372dab8c645fda718c69c18b48ddb"
+  url "https://github.com/otto-nation/otto-workbench/releases/download/v1.13.0/otto-workbench-1.13.0.tar.gz"
+  sha256 "a618ab8a97deb75773cd54e006dcbb08ad842d3c200bcbbda6bf2eea588fcc79"
 
   def install
     libexec.install Dir["*"]
