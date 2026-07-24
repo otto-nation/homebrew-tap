@@ -1,11 +1,11 @@
 class OttoAiTools < Formula
   desc "AI-powered code review and PR lifecycle tools"
   homepage "https://github.com/otto-nation/otto-workbench"
-  version "1.40.2"
+  version "1.40.3"
   license "MIT"
 
-  url "https://github.com/otto-nation/otto-workbench/releases/download/otto-ai-tools-v1.40.2/otto-ai-tools-1.40.2.tar.gz"
-  sha256 "0e4c16d5de657cf45ca2a2d3ebbb15c46207441e133a5e6d249207bb45f0adc7"
+  url "https://github.com/otto-nation/otto-workbench/releases/download/otto-ai-tools-v1.40.3/otto-ai-tools-1.40.3.tar.gz"
+  sha256 "ffca506707cd521241cf1d60fe68c2998220a28c5f4e6c5df481109bfee77336"
 
   depends_on "bash"
   depends_on "gh"
